@@ -7,7 +7,8 @@ const config = {
 
     kit: {
         adapter: adapter({
-            out: "release",
+            pages: "release",
+            assets: "release",
             precompress: true,
         }),
         alias: {
