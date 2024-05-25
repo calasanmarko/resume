@@ -8,14 +8,14 @@
     <title>Marko Calasan</title>
 </svelte:head>
 
-<main class="mx-auto mb-16 mt-48 flex min-w-96 max-w-4xl flex-col gap-12 px-16 text-gray-800">
-    <div class="flex flex-wrap justify-center gap-6">
+<main class="mx-auto mb-16 mt-48 flex min-w-96 max-w-4xl flex-col gap-12 px-4 text-gray-800">
+    <div class="flex justify-center gap-6 max-sm:flex-col max-sm:items-center">
         <img
             src="/assets/images/prettyboy.jpg"
             alt="Marko Calasan"
             class="h-24 w-24 rounded-full"
         />
-        <div class="flex flex-col justify-evenly">
+        <div class="flex flex-col justify-evenly max-sm:items-center max-sm:gap-2">
             <div class="flex items-center gap-4">
                 <h1 class="text-2xl font-semibold">Marko Calasan</h1>
                 <a
@@ -30,7 +30,7 @@
                     />
                 </a>
             </div>
-            <i class="text-lg">Hopefully a skilled software engineer.</i>
+            <i class="text-center text-lg">Hopefully a skilled software engineer.</i>
         </div>
     </div>
     <div class="flex flex-col gap-8">
