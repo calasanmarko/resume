@@ -44,37 +44,56 @@
                 <li>Node.js (and Bun!)</li>
                 <li>TypeScript</li>
                 <li>PostgreSQL</li>
-                <li>Swift</li>
+                <li>Swift (SwiftUI and UIKit)</li>
+                <li>Go</li>
             </ul>
             <p>I also have passing experience in:</p>
             <ul>
                 <li>OpenGL / Vulkan / Metal</li>
                 <li>C# / .NET</li>
                 <li>Rust</li>
-                <li>Go</li>
             </ul>
             <p>I have a wide range of interests and am not locked into any particular language or framework.</p>
         </Section>
         <Section title="History">
-            <div class="flex flex-col gap-12">
+            <div class="flex flex-col gap-10">
                 <CompanyHistory
                     name="WolfWare"
                     period="2022 - Present"
                 >
                     <p>
-                        Currently employed at <b>WolfWare</b>, where we provide software solutions to a wide variety of
-                        clients. I am the lead developer in a number of projects, and am responsible for overseeing
-                        project architecture and design, as well as actually writing code.
+                        Working on complete solutions across the entire tech stack including Web and iOS front-end
+                        interfaces, back-end servers, databases and endpoints, as well as low-level graphical work,
+                        highly optimized data processing and locally hosting AI models for document parsing and generic
+                        computer vision tasks.
                     </p>
-                    <p>
-                        As for writing code, I've primarily acted as a full-stack engineer, designing front-end web
-                        interfaces with <b>Svelte</b> and backend systems in <b>Node</b> and <b>PgSQL</b>. I also
-                        maintain our small <b>AWS</b> cloud infrastructure.
-                    </p>
-                    <p>
-                        We're a small company, so I take on a wide variety of responsibilities, which I find to be
-                        rather interesting.
-                    </p>
+                    <div class="flex flex-col gap-4">
+                        <p class="font-bold">A general list of technologies I've worked with in my time here:</p>
+                        <ul class="flex flex-col gap-2">
+                            <li>Web: Svelte/SvelteKit (and the whole associated JS ecosystem)</li>
+                            <li>iOS: UIKit and SwiftUI</li>
+                            <li>Server: Node.JS, PostgreSQL, gRPC</li>
+                            <li>GPU / AI: Metal, MSL, CoreML (on iOS)</li>
+                            <li>DevOps: Small-scale AWS hosting and maintenance (RDS, ECS, Lambda)</li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <p class="font-bold">Some more interesting points:</p>
+                        <ul class="flex flex-col gap-4">
+                            <li>
+                                Creating a <b>Metal</b> + <b>CoreML</b> + <b>AVFoundation</b> pipeline for live video editing
+                                and segmentation tasks on iOS.
+                            </li>
+                            <li>
+                                Creating an end-to-end encryption system spanning users both on the web and iOS,
+                                connected by our Node-based backend.
+                            </li>
+                            <li>
+                                Locally hosting public-facing specialized VQA, object detection and object segmentation
+                                models (fun!)
+                            </li>
+                        </ul>
+                    </div>
                 </CompanyHistory>
                 <CompanyHistory
                     name="Freelance"
@@ -85,25 +104,28 @@
                         applications involving low-level interfaces to the operating system.
                     </p>
 
-                    <p class="font-bold">An illustrative subset of projects:</p>
-                    <ul class="flex flex-col gap-4">
-                        <li>
-                            Developing the control software for a golf control box using <b>WPF</b>, mapping hardware
-                            inputs to mouse and keyboard macros.
-                        </li>
-                        <li>
-                            Developing a custom window manager for Windows that emulates the way multiple desktops work
-                            on MacOS when there's more than one monitor
-                        </li>
-                        <li>
-                            Creating a low-level hook into Windows 10's <b>DWM</b> (Desktop Window Manager) that allows
-                            for arbitrary shaders and vertices to be injected in the <b>DirectX</b> window drawing pipeline
-                        </li>
-                        <li>
-                            Creation of a <b>Svelte</b>-based web UI, a <b>Node.JS</b> backend and a <b>C#/.NET</b> Windows
-                            service that allows for centralized event tracking across multiple servers.
-                        </li>
-                    </ul>
+                    <div class="flex flex-col gap-4">
+                        <p class="font-bold">An illustrative subset of projects:</p>
+                        <ul class="flex flex-col gap-4">
+                            <li>
+                                Developing the control software for a golf control box using <b>WPF</b>, mapping
+                                hardware inputs to mouse and keyboard macros.
+                            </li>
+                            <li>
+                                Developing a custom window manager for Windows that emulates the way multiple desktops
+                                work on MacOS when there's more than one monitor
+                            </li>
+                            <li>
+                                Creating a low-level hook into Windows 10's <b>DWM</b> (Desktop Window Manager) that
+                                allows for arbitrary shaders and vertices to be injected in the <b>DirectX</b> window drawing
+                                pipeline
+                            </li>
+                            <li>
+                                Creation of a <b>Svelte</b>-based web UI, a <b>Node.JS</b> backend and a <b>C#/.NET</b> Windows
+                                service that allows for centralized event tracking across multiple servers.
+                            </li>
+                        </ul>
+                    </div>
                 </CompanyHistory>
             </div>
         </Section>

@@ -8,5 +8,7 @@
         <h3 class="text-xl font-semibold">{name}</h3>
         <span class="italic">{period}</span>
     </div>
-    <slot />
+    <div class="flex flex-col gap-6">
+        <slot />
+    </div>
 </div>
